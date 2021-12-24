@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Vazir ;
+    src: url("../demo/Vazir-Light.ttf");
+}
+@font-face {
+    font-family: VazirForValidation ;
+    src: url("../demo/Vazir.ttf");
+}
+body {
+    text-align: right ;
+    direction: rtl ;
+    font-family: Vazir;
+}
+.alert > p{
+    font-family:VazirForValidation !important ;
+}
+.tachometer-custom{
+    color: #0b8c7c;
+    font-size: 2rem;
+}
